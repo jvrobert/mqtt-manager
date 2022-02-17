@@ -1,0 +1,16 @@
+menu "mqtt-manager configuration"
+
+    config MQTT_MANAGER_SERVER
+        string "MQTT Server URI (mqtt://...)"
+        help
+            Hostname/ip
+    config MQTT_MANAGER_LOGIN
+        string "MQTT Login"
+        help
+            Login
+    config MQTT_MANAGER_PASSWORD
+        string "MQTT Password"
+        help
+            Password
+
+endmenu
